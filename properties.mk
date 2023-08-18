@@ -143,6 +143,7 @@ persist.vendor.cne.feature=1
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.disable_zsl_mode=1
+persist.vendor.camera.perflock.enable=0
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
