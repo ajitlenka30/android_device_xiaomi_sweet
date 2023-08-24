@@ -188,10 +188,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/privapp-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-com.dolby.daxappui.xml \
     $(LOCAL_PATH)/configs/dolby/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-com.dolby.daxservice.xml
 
-# FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    qcom.fmradio
 
 # Camera
 PRODUCT_PACKAGES += \
